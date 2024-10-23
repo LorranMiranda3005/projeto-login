@@ -57,3 +57,69 @@ lilás: #5f2c82
     display: block;
  }
 
+ div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+div#formulário > p {
+    font-size: 0.8em;
+}
+
+form {
+    display: grid;
+}
+
+form > div.campo {
+    background-color: #728E9B ;
+    display: block;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+form > div > input[type=submit] {
+    display: block;
+    width: 100%;
+    background-color: #003444;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+form > div > input[type=submit]:hover {
+    background-color: #01799e;
+}
+
+div.campo > label {
+    display: none;
+}
+
+ a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: white;
+    color: #012530;
+    border: 1px solid #003444;
+}
+
+a:hover {
+    background-color: #728E9B;
+    color: white;
+
+}
+
+
+
+
+
